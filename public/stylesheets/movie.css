@@ -1,0 +1,26 @@
+.axis {
+    display: inline-block;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #eee;
+    min-width: .1rem;
+    min-height: 30rem;
+    /* position: relative; */
+}
+
+body {
+    margin: 4rem 10rem;
+}
+
+.tick {
+    min-width: 1rem;
+    min-height: 1rem;
+    /* background-color: aqua; */
+    /* border-top: 1px solid black; */
+    border-right: 1px solid black;
+    display: inline-block;
+    position: relative;
+    top: 30rem;
+    margin: 0px;
+    padding: 0;
+}
